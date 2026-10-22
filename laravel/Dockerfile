@@ -1,4 +1,4 @@
-FROM php:8.4-apache-trixie
+FROM php:8.4.27-apache-trixie
 
 # 1. Install System Dependencies & Clear Cache
 RUN apt-get update && apt-get install -qy --no-install-recommends \
